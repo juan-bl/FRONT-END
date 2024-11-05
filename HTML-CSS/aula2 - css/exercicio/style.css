@@ -1,16 +1,26 @@
 body {
     background-image: url(background.jpg);
-    background-repeat: no-repeat fixed;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
     text-align: center;
 }
 
 div {
     padding: 20px;
-    background-color: antiquewhite;
+    background-color: rgb(230, 250, 255);
     width: 50%;
+    border-radius: 10px;
 }
 
 img {
     width: 500px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.categoria {
+    font-size: 40px;
 }
