@@ -1,0 +1,16 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+div {
+    padding: 20px;
+    background-color: antiquewhite;
+    width: 50%;
+}
+
+img {
+    width: 500px;
+}
