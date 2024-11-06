@@ -4,11 +4,18 @@ body {
     background-attachment: fixed;
     font-family: sans-serif;
     text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#titulo {
+    font-size: 50px;
+    color: brown;
 }
 
 div {
     padding: 20px;
-    background-color: rgb(230, 250, 255);
+    background-color: rgb(180, 230, 243);
     width: 50%;
     border-radius: 10px;
 }
@@ -17,7 +24,7 @@ img {
     width: 500px;
 }
 
-p {
+.explicacao {
     font-size: 14px;
 }
 
