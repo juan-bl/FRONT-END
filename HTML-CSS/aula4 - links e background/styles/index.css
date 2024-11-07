@@ -68,3 +68,9 @@ footer {
 #sobreNos h1 {
 text-align: center;
 }
+
+#sobreNos img {
+    width: 50%;
+    margin: 25px 27%;
+    border-radius: 20px;
+}
