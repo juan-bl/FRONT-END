@@ -1,0 +1,71 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.pai {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    margin: 20px;
+
+    /* posicionamento no pai */
+    display: flex;
+
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+
+    /* align-items: start; */
+    /* align-items: end; */
+    /* align-items: center; */
+}
+
+#pai1 {
+    /* alinhamento no eixo x */
+    justify-content: space-around;
+
+    /* alinhamento no eixo y */
+    align-items: center;
+
+    /* start (left) - esquerda */
+    /* end (right) - direita */
+    /* center - centro */
+    /* space-between - joga os elementos na laterial */
+    /* space-around - joga os elementos na laterial com espaços */
+    /* space-evenly - joga os elementos com espaços iguais entre eles */
+}
+
+#pai2 {
+    /* gap - espaço entre elementos */
+    gap: 20px;
+    /* wrap - joga os elementos caso não caibam na tela */
+    flex-wrap: wrap;
+    /* row - linha */
+    /* column - coluna */
+    flex-direction: column;
+}
+
+.filho {
+    width: 30px;
+    height: 30px;
+}
+
+.f1 {
+    background-color: brown;
+}
+
+.f2 {
+    background-color: blueviolet;
+}
+
+.f3 {
+    background-color: burlywood;
+}
+
+.f4 {
+    background-color: chartreuse;
+}
