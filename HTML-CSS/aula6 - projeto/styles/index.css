@@ -1,0 +1,133 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #e8e6e6;
+}
+
+header {
+    background-color: #e8e6e6;
+    display: flex;
+    flex-direction: column;
+}
+
+#navHeader {
+    text-align: right;
+    font-size: 30px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* margin-right: 35px; */
+    margin: 20px;
+    
+}
+
+#navHeader a {
+    margin-left: 55px;
+    text-decoration: none;
+    color: black;
+}
+
+#imagens {
+    height: 466.9px;
+    background-color: rgb(0, 0, 0);
+}
+
+#img1, #img2 {
+    height: 466.9px;
+}
+
+img {
+    height: 4px;
+}
+
+header p {
+    margin: 15px;
+    padding-left: 35px;
+    font-size: 27px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-between;
+}
+
+h1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px 0px 15px 50px;
+}
+
+.text1 {
+    width: 50%;
+    margin: 20px 0px 10px 50px;
+}
+
+.text1 h3, .text1 h4 {
+    margin-bottom: 20px;
+}
+
+.text1 p {
+    margin-bottom: 20px;
+}
+
+#text2 {
+    margin-left: -600px;
+}
+
+.text2 {
+    width: 60%;
+    margin: 20px 50px 0px 50px;
+}
+
+.text2 h3, .text2 h4 {
+    margin-bottom: 20px;
+}
+
+.text2 p {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#mapa {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px;
+}
+
+#mapa nav {
+    display: flex;
+    flex-direction: column;
+    font-size: 21px;
+    text-decoration: none;
+    gap: 10px;
+    
+}
+
+#mapa nav a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 5px;
+    padding: 20px 0px 20px 50px;
+}
+
+footer p{
+    font-size: 13px;
+}
+
+#mapa nav a:hover{
+    transition: 0.3s;
+    font-size: 30px;
+}
