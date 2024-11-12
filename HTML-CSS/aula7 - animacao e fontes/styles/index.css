@@ -1,0 +1,49 @@
+/* animação step by step */
+@keyframes animacao {
+    0% {
+        background-color: aqua;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: aqua;
+    }
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.caixa {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#caixa1 {
+    background-color: chartreuse;
+}
+
+#caixa1:hover {
+    border-radius: 100%;
+    transition: 1s;
+    animation: 1s animacao;
+}
+
+#caixa2 {
+    background-color: chocolate;
+}
+
+#caixa2:active {
+    width: 80%;
+    background-color: rgb(100, 51, 16);
+    transition: 0.5s;
+}
+
+
+#caixa3 {
+    background-color: cadetblue;
+}
