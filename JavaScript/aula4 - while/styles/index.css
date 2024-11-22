@@ -45,12 +45,14 @@ main h1 {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    border-radius: 5px;
 }
 
 .livro {
     width: 200px;
     padding: 5px;
     margin-top: 20px;
+    margin-bottom: 20px;
     background-color: var(--corSecundaria);
     color: var(--branco);
     display: flex;
