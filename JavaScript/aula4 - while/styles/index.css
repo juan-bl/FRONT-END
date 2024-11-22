@@ -32,6 +32,11 @@ nav {
     width: 30px;
 }
 
+main h1 {
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
 #catalogo {
     width: 80%;
     margin: 10px auto;
@@ -45,6 +50,7 @@ nav {
 .livro {
     width: 200px;
     padding: 5px;
+    margin-top: 20px;
     background-color: var(--corSecundaria);
     color: var(--branco);
     display: flex;
@@ -58,10 +64,16 @@ nav {
 button {
     display: flex;
     padding: 5px;
+    align-items: center;
+}
+
+button img {
+    margin-bottom: 6px;
 }
 
 .livro img {
     width: 80%;
+    margin-top: 10px;
 }
 
 h4 {
