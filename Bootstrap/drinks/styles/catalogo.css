@@ -1,0 +1,36 @@
+/* main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+} */
+
+/* #botoesDrinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: rgb(0, 163, 163);
+} */
+
+#pesquisarDrinks{
+    width: 80%;
+    background-color: aqua;
+}
+
+#resultados {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+img {
+    width: 20%;
+}
