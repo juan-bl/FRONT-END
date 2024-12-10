@@ -1,0 +1,60 @@
+header {
+    background-color: black;
+    color: rgb(170, 59, 59);
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+}
+
+#banner {
+    width: 100%;
+}
+
+#mural {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px 30px;
+    padding: 20px 0;
+}
+
+#par {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(129, 54, 54);
+    color: wheat;
+}
+
+#par:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: rgb(88, 3, 3);
+}
+
+/* #par:hover {
+    
+    transition: 0.5s;
+    color: rgb(88, 3, 3);
+}*/
+
+#par img {
+    width: 250px;
+}
+
+/* #par img:hover {
+    transform: scale(1.1);
+    border-radius: 15px;
+    transition: 0.5s;
+} */
