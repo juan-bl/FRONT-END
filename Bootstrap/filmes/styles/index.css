@@ -1,8 +1,10 @@
 header {
     background-color: black;
+    width: 100%;
     color: rgb(170, 59, 59);
     text-align: center;
     padding: 10px;
+    position: fixed;
 }
 
 body {
