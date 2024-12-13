@@ -1,0 +1,25 @@
+{
+    "usuarios" : [
+        {
+            "id" : "0",
+            "nome" : "Juan",
+            "cpf" : "99999999999",
+            "senha": "1234",
+            "endereco" : "Brasília"
+        },
+        {
+            "id" : "1",
+            "nome" : "Maria",
+            "cpf" : "88888888888",
+            "senha": "4321",
+            "endereco" : "Rio de Janeiro"
+        },
+        {
+            "id" : "2",
+            "nome" : "Neymar",
+            "cpf" : "77777777777",
+            "senha": "0101",
+            "endereco" : "São Paulo"
+        }
+    ]
+}
