@@ -1,0 +1,14 @@
+#mural {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text3 {
+    width: 735px;
+}
+
+.text3 h2 {
+    margin: 38px;
+}
