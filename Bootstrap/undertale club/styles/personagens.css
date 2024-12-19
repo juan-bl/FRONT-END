@@ -30,3 +30,8 @@
 .card img {
     height: 250px;
 }
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+}
