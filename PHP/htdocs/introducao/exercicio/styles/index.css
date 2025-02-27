@@ -1,0 +1,83 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --corPrimaria: rgb(246, 124, 185);
+    --corSecundaria: rgb(172, 242, 246);
+    --branco: rgb(214, 214, 214);
+}
+
+header, footer {
+    width: 100%;
+    background-color: var(--corPrimaria);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+#logo {
+    display: flex;
+    gap: 20px;
+}
+
+#logo img {
+    width: 30px;
+}
+
+main h1 {
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+#catalogo {
+    width: 80%;
+    margin: 10px auto;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.livro {
+    width: 200px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--corSecundaria);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+button img {
+    margin-bottom: 6px;
+}
+
+.livro img {
+    width: 80%;
+    margin-top: 10px;
+}
+
+h4 {
+    color: rgb(129, 172, 253);
+}
