@@ -43,9 +43,11 @@ body {
     height: auto;
     margin-top: 50px;
     padding: 23px;
+    padding-left: 50px;
 
     border-radius: 18px;
     font-size: 25px;
+    background-color: aquamarine;
 }
 
 ol {

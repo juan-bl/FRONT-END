@@ -35,10 +35,11 @@
     }
 
     if(isset($_GET['removerItem'])){
-        foreach($_SESSION['carrinho'] as $produto){
+        foreach($_SESSION['carrinho'] as $id => $produto){
         if($produto->id == $_GET['removerItem']){
-            unset($_SESSION['carrinho'][$produto->id]);
+            unset($_SESSION['carrinho'][$id]);
             $_SESSION['carrinho'] = array_values($_SESSION['carrinho']);
+            break;
             }
         }
     }
@@ -62,21 +63,19 @@
         <a href="?id=4&produto=Placa mãe&valor=120.00&desc='1T de armazenamento'">Adicionar Placa mãe</a>
         <!-- deletar -->
         <a id="deletar" href="?deletarCarrinho=True">Deletar</a>
-    
-    
-    <?php
-        $valorTotal = 0;
+        <?php
+            $valorTotal = 0;
 
-        foreach($_SESSION['carrinho'] as $produto) {
-            $valorTotal += $produto->valor;
-        }
+            foreach($_SESSION['carrinho'] as $produto) {
+                $valorTotal += $produto->valor;
+            }
 
-        if ($valorTotal == 0) {
-            echo "O carrinho está vazio";
-        } else {
-            echo "O valor total R$ $valorTotal";
-        }
-    ?>
+            if ($valorTotal == 0) {
+                echo "O carrinho está vazio";
+            } else {
+                echo "O valor total R$ $valorTotal";
+            }
+        ?>
     </div>
 
     <div class="mural">
@@ -90,7 +89,8 @@
                             <p> R$ $produto->valor </p>
                             <p> $produto->desc </p>
                             <a href='?removerItem=$produto->id'> Remover Item </a>
-                          </li>";
+                          </li>
+                          <br>";
                 }
             ?>
         </ol>
